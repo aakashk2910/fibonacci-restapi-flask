@@ -59,7 +59,7 @@ def findCombinations(arr, index, num, reducedNum, resultArr, fb):
 
 
 # Function to find out all combinations of numbers that add upto given input. It uses findCombinations()
-@cache.cached(timeout=50, key_prefix='main')
+#@cache.cached(timeout=50, key_prefix='main')
 def main(n):
     # array to store the combinations
     # It can contain max n elements
